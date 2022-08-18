@@ -1,5 +1,6 @@
 ```java
 public class iAmForyyDev extends GitHubUser {
+
   public iAmForyyDev(){
     super("iAmForyyDev_", "Perú", 17);
     
