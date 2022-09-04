@@ -24,17 +24,27 @@ public abstract class GitHubUser {
   private final Set<String> languages = new HashSet<>();
   private final Set<String> experiences = new HashSet<>();
 
-  public GitHubUser(String username, String country, int age) {
+  public GitHubUser(
+      String username, 
+      String country, 
+      int age
+      
+  ) {
+  
       this.name = username;
       this.country = country;
       this.age = age;
   }
 
-  public void addLanguage(String... language) {
+  public void addLanguage(
+      String... language
+  ) {
       this.languages.addAll(language);
   }
   
-  public void addExperience(String... experience) {
+  public void addExperience(
+      String... experience
+  ) {
       this.experiences.addAll(experience);
   }
 }
