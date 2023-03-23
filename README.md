@@ -59,9 +59,24 @@ public abstract class GitHubUser {
       Language... languages
   ){
       this.learningLanguage.addAll(languages);
-  }
-  
+  } 
 }
+
+public enum Language {
+
+  HTML,
+  CSS,
+  
+  JAVA,
+  JAVASCRIPT,
+  TYPESCRIPT,
+  PYTHON,
+  PHP,
+  C#,
+  C++
+
+}
+
 ```
 ![iAmForyy GitHub Stats](https://github-readme-stats.vercel.app/api?username=iAmForyy&show_icons=true&theme=tokyonight) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iAmForyy&theme=tokyonight)
  
