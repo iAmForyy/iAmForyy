@@ -27,8 +27,8 @@ public abstract class GitHubUser {
   @Getter private final String country;
   @Getter private final int age;
 
-  private final Set<String> languages = new HashSet<>();
-  private final Set<Language> experiences = new HashSet<>();
+  private final Set<String> experiences = new HashSet<>();
+  private final Set<Language> languages = new HashSet<>();
   private final Set<Language> learningLanguage = new HashSet<>(); // General Languages
 
   public GitHubUser(
